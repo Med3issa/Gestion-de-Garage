@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorAccent"
+
+        android:layout_marginBottom="10dp"
+
+        android:text="Gestion de Garage" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/maintenance"
+
+
+        />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_marginTop="30sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="    E-mail "
+        android:drawableStart="@drawable/ic_person_black_24dp"
+
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="20dp"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/input_pass"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+        android:hint="    Mot de passe"
+
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif-medium"
+        android:shadowRadius="10"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+
+
+
+
+</LinearLayout>

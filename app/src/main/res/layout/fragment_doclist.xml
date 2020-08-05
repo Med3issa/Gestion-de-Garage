@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doc.Doclist"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/assurance"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/custem_item"
+            android:text="Assurance"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/leasing"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custem_item"
+            android:text="leasing"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/taxe"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Taxe"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/custem_item"/>
+
+        <Button
+            android:id="@+id/visite"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custem_item"
+            android:text="Visite"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+</LinearLayout>

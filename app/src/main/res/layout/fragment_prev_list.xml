@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".prev.PrevList">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custem_item"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+
+
+        >
+
+        <TextView
+
+            android:layout_width="180dp"
+            android:layout_height="80dp"
+            android:background="@drawable/custem_item"
+            android:text="Boujie"
+            android:id="@+id/btnboujie"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/boujie"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custem_item"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="130dp"
+
+            android:background="@drawable/custem_item"
+            android:text="Pneu   "
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pneu"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custem_item"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custem_item"
+            android:text="Chaine"
+            android:layout_marginEnd="130dp"
+            android:layout_marginStart="20dp"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chaine"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custem_item"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custem_item"
+            android:text="Filtre   "
+            android:layout_marginEnd="130dp"
+            android:layout_marginStart="20dp"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/filtre"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custem_item"
+        android:orientation="horizontal"
+
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custem_item"
+            android:text="Vidange"
+            android:layout_marginEnd="120dp"
+            android:layout_marginStart="20dp"
+
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vidange"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
